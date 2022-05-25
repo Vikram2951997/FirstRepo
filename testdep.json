@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccounts_devopsade4_name": {
-            "defaultValue": "TestStorage",
+            "defaultValue": "devopsade4",
             "type": "String"
         }
     },
