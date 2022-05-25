@@ -1,14 +1,14 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-  "parameters": {
+    "parameters": {
     "storageAccounts_devopsade4_name": {
       "defaultValue": "devopsade4",
       "type": "String"
     }
-  },
+    },
     "variables": {
-       "TestName":"Test-Storage-Account",
+       "TestName": "Test-Storage-Account",
         "storageAccountName": "[replace(parameters('TestName'), '-', '')]"
     },
     "resources": [
